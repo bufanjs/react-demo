@@ -10,7 +10,6 @@ export default class Plist extends React.Component {
     componentDidMount(){
     	this.setState({"firstView":true});
     }
-
     componentWillReceiveProps(nextProps){
     	let keyword = nextProps.keyword;
     	this.setState({"loading":true,"firstView":false});
@@ -21,7 +20,6 @@ export default class Plist extends React.Component {
     		console.error(error);
     	});
     }
-
     render() {
     	const imgStyle = {
         	width:'50px'

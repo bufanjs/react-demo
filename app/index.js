@@ -14,7 +14,6 @@ class App extends React.Component {
 	refreshKeyword(name) {
     	this.setState({"keyword": name});
   	}
-
     render() {
         return (
 			<div className="container">
